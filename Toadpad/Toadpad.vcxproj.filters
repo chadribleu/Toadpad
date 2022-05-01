@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\AbstractWindow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DocumentHandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Edit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MainWindow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\accelerators.cpp">
+      <Filter>Fichiers sources\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuBar.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MenuItem.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\clipboard.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AbstractWindow.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DocumentHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Edit.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainWindow.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\accelerators.h">
+      <Filter>Fichiers d%27en-tête\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Menu.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuBar.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuItem.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clipboard.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\application.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\toadenum.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{81515cd8-0002-46a4-ab51-d3341f334ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{b9096bcc-3249-44cb-8d8b-330e302defe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Accelerators">
+      <UniqueIdentifier>{14761872-5b82-4727-8be8-358e33dff007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Accelerators">
+      <UniqueIdentifier>{e34db66f-ed35-41b2-9c93-9c61a3fb9ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu">
+      <UniqueIdentifier>{ebc33407-45bd-4527-831a-996893dddf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu">
+      <UniqueIdentifier>{22aead0d-dc0a-4e3e-90da-99a8abd53d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressource">
+      <UniqueIdentifier>{9ed9ac89-c6f6-4833-b4cf-7a0b0e4fc970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="app.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Fichiers de ressource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
